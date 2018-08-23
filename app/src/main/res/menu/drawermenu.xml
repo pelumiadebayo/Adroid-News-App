@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+    <menu xmlns:andriod="http://schemas.android.com/apk/res/android">
+    <item andriod:id="@+id/PolNews" andriod:title="Politics" andriod:icon="@drawable/pol"/>
+    <item andriod:id="@+id/BuzNews" andriod:title="Business" andriod:icon="@drawable/bus"/>
+    <item andriod:id="@+id/TechNews" andriod:title="Technology" andriod:icon="@drawable/tech"/>
+    <item andriod:id="@+id/EntNews" andriod:title="Entertainment" andriod:icon="@drawable/ent"/>
+
+</menu>
