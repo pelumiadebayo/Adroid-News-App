@@ -3,7 +3,7 @@
     android:orientation="vertical"
     android:layout_height="160dp"
     android:layout_width="match_parent"
-    android:background="@drawable/head"
+    android:background="@drawable/drawerhead"
     android:padding="20dp">
 
     <ImageView
@@ -18,5 +18,5 @@
         android:textColor="@color/white"
         android:gravity="center"
         android:textSize="16dp"
-        android:text="Welcome to the..."/>
+        android:text="Welcome to the News"/>
 </LinearLayout>

@@ -18,7 +18,12 @@
         <activity android:name=".Politics" />
         <activity android:name=".Entertainment" />
         <activity android:name=".Technology" />
-        <activity android:name=".Business"></activity>
+        <activity android:name=".Business" />
+        <activity android:name=".News" />
+        <activity
+            android:name=".NewsListAdapter"
+            android:label="@string/title_activity_news_adapter"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

@@ -5,15 +5,15 @@
     android:id="@+id/drawer"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    tools:context="com.example.user.news.MainActivity">
+    android:paddingLeft="@dimen/activity_horizontal_margin">
 
     <GridView
+        android:orientation="vertical"
         android:background="@drawable/backg"
-        android:id="@+id/list_item"
+        android:id="@+id/list"
+        android:numColumns="2"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-    </GridView>
+        android:layout_height="match_parent"/>
 
     <android.support.design.widget.NavigationView
         app:headerLayout="@layout/header"
